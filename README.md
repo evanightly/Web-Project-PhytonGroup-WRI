@@ -1,4 +1,4 @@
-# WRI PYTHON Landing Page
+# Landing Page
 
 ...
 
