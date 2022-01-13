@@ -14,6 +14,15 @@ Halaman ini mendukung tampilan responsif agar dapat diakses dalam bentuk *mobile
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 - [Javascript](https://id.wikipedia.org/wiki/JavaScript)
 
+### Struktur File
+    .
+    ├── assets                  # Folder ini digunakan untuk menyimpan file yang nantinya akan digunakan di dalam pengembangan proyek
+    ├── scripts                 # Folder ini digunakan untuk menyimpan file javascript
+    ├── styles                  # Folder ini digunakan untuk menyimpan file css
+    ├── upload                  # Folder ini digunakan untuk menyimpan screenshot yang nantinya akan digunakan untuk dokumentasi
+    ├── index.html              
+    ├── README.md
+
 ### Pembina
 
 - Dikhi Achmad Dani
