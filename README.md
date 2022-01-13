@@ -2,7 +2,7 @@
 
 Landing page ini didesain dan dikembangkan sedemikian rupa untuk memberikan informasi berupa tujuan, layanan dan kontak.
 Desain ini menerapkan *Desktop First Design*, yaitu memfokuskan *user interface* dan *user experience* pada tampilan desktop.
-Halaman ini mendukung tampilan responsif agar dapat diakses dalam bentuk mobile device tanpa merusak desain tampilan utama.
+Halaman ini mendukung tampilan responsif agar dapat diakses dalam bentuk *mobile device* tanpa merusak desain tampilan utama.
 
 ### Tautan
 
