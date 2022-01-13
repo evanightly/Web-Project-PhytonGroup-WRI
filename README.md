@@ -16,8 +16,6 @@
 
 - Dikhi Achmad Dani
 - Deeva Rindu Wijarista Putri
-- Nabilah Argyanti
-- Naufal Yukafi Ridlo
 
 ### Anggota Tim
 
