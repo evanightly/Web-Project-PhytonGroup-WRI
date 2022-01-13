@@ -20,8 +20,8 @@ Halaman ini mendukung tampilan responsif agar dapat diakses dalam bentuk *mobile
     ├── scripts                 # Folder ini digunakan untuk menyimpan file javascript
     ├── styles                  # Folder ini digunakan untuk menyimpan file css
     ├── upload                  # Folder ini digunakan untuk menyimpan screenshot yang nantinya akan digunakan untuk dokumentasi
-    ├── index.html              
-    ├── README.md
+    ├── README.md            
+    ├── index.html
 
 ### Pembina
 
