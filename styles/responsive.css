@@ -4,10 +4,26 @@
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
+  .paket .container {
+    justify-content: start;
+    flex-wrap: wrap;
+  }
+  .paket .container > * {
+    margin: 20px;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .paket .container {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .paket .container div:not(:last-child) {
+    margin-right: 20px;
+  }
+
   .hero h1 {
     font-size: 60px;
   }

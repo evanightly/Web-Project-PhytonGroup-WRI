@@ -109,7 +109,7 @@ nav p object {
 .hero {
   background: linear-gradient(rgba(4, 28, 50, 0.8), rgba(40, 104, 164, 0.8)),
     url("../assets/images/hero.png");
-    background-position: center;
+  background-position: center;
   padding: 200px 0;
   color: #fff;
   text-align: center;
@@ -139,7 +139,8 @@ button {
 }
 
 .paket {
-  background: #F6FBFF;
+  padding: 50px;
+  background: #f6fbff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -148,10 +149,7 @@ button {
 
 .paket h1 {
   /* margin-top: 87.63px; */
-  margin: 80px 0;
-  width: 1327.57px;
-  height: 53.43px;
-  left: 32.29px;
+  margin: 0 0 50px 0;
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -160,86 +158,88 @@ button {
   color: rgba(47, 46, 65, 0.85);
 }
 
-.container {
+.paket .container {
   display: flex;
   justify-content: space-between;
   /* margin-top: 221.69px; */
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 0 40px;
 }
 
-.container div:not(:last-child) {
-  margin-right: 120px;
+.paket .container > div {
+  padding: 20px;
+  box-shadow: 4px 10px 10px 2px #88888827;
 }
 
-.container p {
+.paket .container div:not(:last-child) {
+  margin-right: 80px;
+}
+
+.paket .container p {
   text-align: center;
   margin-top: 43.72px;
   margin-bottom: 35.94px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: bold;
   font-size: 36px;
   line-height: 43px;
 }
 
-.container #garis {
+.paket .container #garis {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 26.23px;
 }
 
-.container ul{
-  list-style-type:none;
-  margin-left: 77.53px;
+.paket .container ul {
+  list-style-type: none;
+  padding-left: 50px;
   font-size: 14px;
   line-height: 19.53px;
-  color: #101010C4;
+  color: #101010c4;
 }
 
-.container ul img {
+.paket .container ul img {
   margin-right: 9.77px;
 }
 
+.paket .container button {
+  letter-spacing: 1px;
+}
+
 .gold {
-  width: 379.14px;
-  height: 486.7px;
-  background: #FAFAFA;
+  background: #fafafa;
   box-shadow: 0px 14px 10px -1px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
 }
 
 .gold p {
-  color: #FDBF30;
+  color: #fdbf30;
 }
 
 .premium {
-  width: 379.14px;
-  height: 486.7px;
-  background: #FAFAFA;
+  background: #fafafa;
   box-shadow: 0px 14px 10px -1px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
 }
 
 .premium p {
-  color: #6F6F6F;
+  color: #6f6f6f;
 }
 
 .standard {
-  width: 379.14px;
-  height: 486.7px;
-  background: #FAFAFA;
+  background: #fafafa;
   box-shadow: 0px 14px 10px -1px rgba(0, 0, 0, 0.07);
   border-radius: 5px;
 }
 
 .standard p {
-  color: #195DA1;
+  color: #195da1;
 }
 
 .harga {
-  position: relative;
   text-align: center;
+  width: 100%;
   /* margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -247,49 +247,43 @@ button {
 }
 
 .harga h2 {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 14.7px;
 }
 
-.harga h3 {
-  position: absolute;
-  top: 15px;
-  right: -20px;
-  transform: translate(-50%, -50%);
-  /* margin-left: 4px;
-  margin-top: 8px;
-  margin-bottom: 14.7px; */
+.harga span {
   font-size: 14px;
+  color: #6f6f6f;
 }
 
 .gold .harga h2 {
   margin-top: 20.4px;
-  color: #FDBF30;
+  color: #fdbf30;
 }
 
 .gold .harga h3 {
   /* margin-top: 28.4px; */
-  color: #6F6F6F;
+  color: #6f6f6f;
 }
 
 .premium .harga h2 {
   margin-top: 39.83px;
-  color: #6F6F6F;
+  color: #6f6f6f;
 }
 
 .premium .harga h3 {
   /* margin-top: 47.83px; */
-  color: #6F6F6F;
+  color: #6f6f6f;
 }
 
 .standard .harga h2 {
   margin-top: 59.351px;
-  color: #195DA1;
+  color: #195da1;
 }
 
 .standard .harga h3 {
   /* margin-top: 68.351px; */
-  color: #6F6F6F;
+  color: #6f6f6f;
 }
 
 .paket button {
@@ -299,7 +293,7 @@ button {
   height: 45px;
   margin-right: auto;
   margin-left: auto;
-  color: #FAFAFA;
+  color: #fafafa;
   font-weight: 800;
   border-radius: 5px;
   line-height: 25px;
@@ -307,13 +301,13 @@ button {
 }
 
 .gold button {
-  background-color: #FDBF30;
+  background-color: #fdbf30;
 }
 
 .premium button {
-  background-color: #6F6F6F;
+  background-color: #6f6f6f;
 }
 
 .standard button {
-  background-color: #195DA1;
+  background-color: #195da1;
 }
