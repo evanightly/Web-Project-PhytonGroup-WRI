@@ -137,3 +137,183 @@ nav p object {
 button {
   text-transform: uppercase;
 }
+
+.paket {
+  background: #F6FBFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.paket h1 {
+  /* margin-top: 87.63px; */
+  margin: 80px 0;
+  width: 1327.57px;
+  height: 53.43px;
+  left: 32.29px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: rgba(47, 46, 65, 0.85);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 221.69px; */
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.container div:not(:last-child) {
+  margin-right: 120px;
+}
+
+.container p {
+  text-align: center;
+  margin-top: 43.72px;
+  margin-bottom: 35.94px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.container #garis {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 26.23px;
+}
+
+.container ul{
+  list-style-type:none;
+  margin-left: 77.53px;
+  font-size: 14px;
+  line-height: 19.53px;
+  color: #101010C4;
+}
+
+.container ul img {
+  margin-right: 9.77px;
+}
+
+.gold {
+  width: 379.14px;
+  height: 486.7px;
+  background: #FAFAFA;
+  box-shadow: 0px 14px 10px -1px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+}
+
+.gold p {
+  color: #FDBF30;
+}
+
+.premium {
+  width: 379.14px;
+  height: 486.7px;
+  background: #FAFAFA;
+  box-shadow: 0px 14px 10px -1px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+}
+
+.premium p {
+  color: #6F6F6F;
+}
+
+.standard {
+  width: 379.14px;
+  height: 486.7px;
+  background: #FAFAFA;
+  box-shadow: 0px 14px 10px -1px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+}
+
+.standard p {
+  color: #195DA1;
+}
+
+.harga {
+  position: relative;
+  text-align: center;
+  /* margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center; */
+}
+
+.harga h2 {
+  font-size: 22px;
+  margin-bottom: 14.7px;
+}
+
+.harga h3 {
+  position: absolute;
+  top: 15px;
+  right: -20px;
+  transform: translate(-50%, -50%);
+  /* margin-left: 4px;
+  margin-top: 8px;
+  margin-bottom: 14.7px; */
+  font-size: 14px;
+}
+
+.gold .harga h2 {
+  margin-top: 20.4px;
+  color: #FDBF30;
+}
+
+.gold .harga h3 {
+  /* margin-top: 28.4px; */
+  color: #6F6F6F;
+}
+
+.premium .harga h2 {
+  margin-top: 39.83px;
+  color: #6F6F6F;
+}
+
+.premium .harga h3 {
+  /* margin-top: 47.83px; */
+  color: #6F6F6F;
+}
+
+.standard .harga h2 {
+  margin-top: 59.351px;
+  color: #195DA1;
+}
+
+.standard .harga h3 {
+  /* margin-top: 68.351px; */
+  color: #6F6F6F;
+}
+
+.paket button {
+  display: block;
+  padding: 10px;
+  width: 243px;
+  height: 45px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #FAFAFA;
+  font-weight: 800;
+  border-radius: 5px;
+  line-height: 25px;
+  size: 21px;
+}
+
+.gold button {
+  background-color: #FDBF30;
+}
+
+.premium button {
+  background-color: #6F6F6F;
+}
+
+.standard button {
+  background-color: #195DA1;
+}
