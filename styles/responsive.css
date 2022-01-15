@@ -38,10 +38,25 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .paket {
+    padding: 10px;
+  }
+  .paket h1 {
+    margin: 40px;
+  }
+  .paket .container {
+    padding: 0;
+  }
+  .paket .container div {
+    padding: 30px 10px;
+  }
+  .paket .container p {
+    margin-top: 0;
+  }
   .hero h1 {
-    font-size: 40px;
+    font-size: 32px;
   }
   .hero p {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
