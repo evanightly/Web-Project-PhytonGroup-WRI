@@ -311,3 +311,50 @@ button {
 .standard button {
   background-color: #195da1;
 }
+
+ /* FOOTER */
+footer {
+  padding: 20px;
+  background-color: #fafafa;
+}
+footer .container{
+  /* width: 100%;
+  height: 435px; */
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+footer .container .row:not(:last-child) {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+footer .container h4{
+  margin-top: 85px;
+  margin-bottom: 30px;
+}
+
+footer .copyright {
+  display: block;
+  width: 91%;
+}
+
+.getintouch .icon object{
+  width: 20px;
+  height: 20px;
+  margin-top: 15px;
+}
+
+.getintouch p span{
+  display: block;
+  margin-top: 15px;
+}
+
+
+
+
+.services ul li{
+  list-style-type: none;
+}
