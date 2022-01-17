@@ -312,6 +312,159 @@ button {
   background-color: #195da1;
 }
 
+/* FITUR */
+
+.fitur {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fitur > * {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fitur > * > * {
+  padding: 60px;
+  width: 50%;
+}
+
+.fitur > * > div {
+  letter-spacing: 2px;
+  line-height: 40px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.fitur > * > div > h1 {
+  line-height: 50px;
+}
+
+.fitur > * > div > p {
+  color: #6F6F6F;
+}
+
+.fitur > * > div > * {
+  margin-top: 50px;
+}
+
+.fitur > *:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.fitur1{
+  display: flex;
+  /* height: 560px; */
+  /* padding: 0 10%; */
+}
+
+.fitur1 > object{
+  /* width: 50%; */
+  /* height: 400px; */
+  align-self: center;
+}
+
+.fitur1 > div{
+  align-self: center;
+  /* padding-right: 200px; */
+  /* width: 50%; */
+}
+
+.fitur1 h1{
+  font-size: 36px;
+  /* margin: 20px 0; */
+}
+
+.fitur1 p{
+  font-size: 24px;
+}
+
+.fitur-section{
+  /* height: 560px; */
+  /* padding: 0 10%; */
+  display: flex;
+}
+
+.fitur-section > div{
+  /* width: 50%; */
+  /* align-self: center; */
+  /* padding-left: 150px; */
+}
+
+.fitur-section h1{
+  font-size: 36px;
+  /* margin: 20px 0; */
+}
+
+.fitur-section p{
+  font-size: 24px;
+}
+
+.fitur-section > object{
+  /* width: 50%; */
+  /* height: 414px; */
+  /* align-self: center; */
+}
+
+.fitur3{
+  /* display: flex; */
+  /* height: 560px; */
+  /* padding: 0 10%; */
+}
+
+.fitur3 > object{
+  /* width: 50%; */
+  /* height: 400px; */
+  /* align-self: center; */
+}
+
+.fitur3 > div{
+  /* align-self: center; */
+  /* width: 50%; */
+  /* padding-right: 200px; */
+}
+
+.fitur3 h1{
+  font-size: 36px;
+  /* margin: 20px 0; */
+}
+
+.fitur3 p{
+  font-size: 24px;
+}
+
+.fitur-section4{
+  /* height: 560px; */
+  /* padding: 0 10%; */
+  /* display: flex; */
+}
+
+.fitur-section4 > div{
+  /* width: 50%; */
+  /* align-self: center; */
+  /* padding-left: 150px; */
+}
+
+.fitur-section4 h1{
+  font-size: 36px;
+  /* margin: 20px 0; */
+}
+
+.fitur-section4 p{
+  font-size: 24px;
+}
+
+.fitur-section4 > object{
+  /* width: 50%; */
+  /* height: 414px; */
+  align-self: center;
+  justify-content: center;
+}
+
  /* FOOTER */
 footer {
   padding: 20px;
