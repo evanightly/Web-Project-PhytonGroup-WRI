@@ -99,6 +99,7 @@ header {
   margin: 0;
   padding: 0;
   border: 0;
+  scroll-behavior: smooth;
   font-family: "Lato", sans-serif;
 }
 
@@ -127,19 +128,43 @@ nav p object {
   line-height: 150%;
 }
 
-.hero button {
-  margin-top: 20px;
+.hero a,
+.hero a:visited,
+.hero a:link {
+  display: inline-block;
+  margin-top: 40px;
   padding: 20px 60px;
   border-radius: 6px;
   font-weight: bold;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #000;
+  transition: all 0.2s;
+}
+
+.hero a:hover {
+  transform: translateY(-5px);
+}
+
+.hero a:active {
+  transform: translateY(0);
+}
+
+a,
+a:visited,
+a:link {
+  color: #fff;
+  text-decoration: none;
 }
 
 button {
   text-transform: uppercase;
 }
 
+/* PAKET */
+
 .paket {
-  padding: 50px;
+  padding: 60px;
   background: #f6fbff;
   display: flex;
   flex-direction: column;
@@ -168,6 +193,11 @@ button {
 .paket .container > div {
   padding: 20px;
   box-shadow: 4px 10px 10px 2px #88888827;
+  transition: all 0.2s;
+}
+
+.paket .container > div:hover {
+  transform: scale(1.1);
 }
 
 .paket .container div:not(:last-child) {
@@ -176,7 +206,7 @@ button {
 
 .paket .container p {
   text-align: center;
-  margin-top: 43.72px;
+  margin-top: 23.72px;
   margin-bottom: 35.94px;
   font-style: normal;
   font-weight: bold;
@@ -204,7 +234,17 @@ button {
 }
 
 .paket .container button {
+  transition: all 0.2s;
   letter-spacing: 1px;
+}
+
+.paket .container button:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.paket .container button:active {
+  transform: translateY(0);
 }
 
 .gold {
@@ -337,7 +377,6 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
 }
 
 .fitur > * > div > h1 {
@@ -345,7 +384,7 @@ button {
 }
 
 .fitur > * > div > p {
-  color: #6F6F6F;
+  color: #6f6f6f;
 }
 
 .fitur > * > div > * {
@@ -356,121 +395,121 @@ button {
   margin-bottom: 60px;
 }
 
-.fitur1{
+.fitur1 {
   display: flex;
   /* height: 560px; */
   /* padding: 0 10%; */
 }
 
-.fitur1 > object{
+.fitur1 > object {
   /* width: 50%; */
   /* height: 400px; */
   align-self: center;
 }
 
-.fitur1 > div{
+.fitur1 > div {
   align-self: center;
   /* padding-right: 200px; */
   /* width: 50%; */
 }
 
-.fitur1 h1{
+.fitur1 h1 {
   font-size: 36px;
   /* margin: 20px 0; */
 }
 
-.fitur1 p{
+.fitur1 p {
   font-size: 24px;
 }
 
-.fitur-section{
+.fitur-section {
   /* height: 560px; */
   /* padding: 0 10%; */
   display: flex;
 }
 
-.fitur-section > div{
+.fitur-section > div {
   /* width: 50%; */
   /* align-self: center; */
   /* padding-left: 150px; */
 }
 
-.fitur-section h1{
+.fitur-section h1 {
   font-size: 36px;
   /* margin: 20px 0; */
 }
 
-.fitur-section p{
+.fitur-section p {
   font-size: 24px;
 }
 
-.fitur-section > object{
+.fitur-section > object {
   /* width: 50%; */
   /* height: 414px; */
   /* align-self: center; */
 }
 
-.fitur3{
+.fitur3 {
   /* display: flex; */
   /* height: 560px; */
   /* padding: 0 10%; */
 }
 
-.fitur3 > object{
+.fitur3 > object {
   /* width: 50%; */
   /* height: 400px; */
   /* align-self: center; */
 }
 
-.fitur3 > div{
+.fitur3 > div {
   /* align-self: center; */
   /* width: 50%; */
   /* padding-right: 200px; */
 }
 
-.fitur3 h1{
+.fitur3 h1 {
   font-size: 36px;
   /* margin: 20px 0; */
 }
 
-.fitur3 p{
+.fitur3 p {
   font-size: 24px;
 }
 
-.fitur-section4{
+.fitur-section4 {
   /* height: 560px; */
   /* padding: 0 10%; */
   /* display: flex; */
 }
 
-.fitur-section4 > div{
+.fitur-section4 > div {
   /* width: 50%; */
   /* align-self: center; */
   /* padding-left: 150px; */
 }
 
-.fitur-section4 h1{
+.fitur-section4 h1 {
   font-size: 36px;
   /* margin: 20px 0; */
 }
 
-.fitur-section4 p{
+.fitur-section4 p {
   font-size: 24px;
 }
 
-.fitur-section4 > object{
+.fitur-section4 > object {
   /* width: 50%; */
   /* height: 414px; */
   align-self: center;
   justify-content: center;
 }
 
- /* FOOTER */
+/* FOOTER */
 footer {
   padding: 20px;
   background-color: #fafafa;
 }
-footer .container{
+footer .container {
   /* width: 100%;
   height: 435px; */
   display: flex;
@@ -484,7 +523,7 @@ footer .container .row:not(:last-child) {
   display: flex;
 }
 
-footer .container h4{
+footer .container h4 {
   margin-top: 85px;
   margin-bottom: 30px;
 }
@@ -494,20 +533,17 @@ footer .copyright {
   width: 91%;
 }
 
-.getintouch .icon object{
+.getintouch .icon object {
   width: 20px;
   height: 20px;
   margin-top: 15px;
 }
 
-.getintouch p span{
+.getintouch p span {
   display: block;
   margin-top: 15px;
 }
 
-
-
-
-.services ul li{
+.services ul li {
   list-style-type: none;
 }
