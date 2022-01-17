@@ -15,14 +15,13 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  footer .container > *{
-    padding: 20px;
-    justify-content: start;
-    align-items: start;
-    flex: 1;
-  /* margin-right:auto; */
+  .hero h1 {
+    font-size: 60px;
   }
-
+  .hero p {
+    font-size: 20px;
+  }
+ 
   .paket .container {
     justify-content: center;
     align-items: center;
@@ -32,12 +31,50 @@
     margin-right: 20px;
   }
 
-  .hero h1 {
-    font-size: 60px;
+  .fitur {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
-  .hero p {
-    font-size: 20px;
+  
+  .fitur > * {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
   }
+
+  .fitur > * > object{
+    margin-top: 50px;
+  }
+
+  .fitur > * > * {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .fitur > * > div {
+    padding: 10px;
+  }
+
+  /* Ordering */
+  .fitur .fitur1 object { order: 2;}
+  .fitur .fitur-section object { order: 4;}
+  .fitur .fitur3 object { order: 6;}
+  .fitur .fitur-section4 object { order: 8;}
+
+  .fitur .fitur1 div { order: 1;}
+  .fitur .fitur-section div { order: 3;}
+  .fitur .fitur3 div { order: 5;}
+  .fitur .fitur-section4 div { order: 7;}
+
+  footer .container > *{
+    padding: 20px;
+    justify-content: start;
+    align-items: start;
+    flex: 1;
+  }
+
 }
 
 /* Small devices (landscape phones, less than 768px) */
