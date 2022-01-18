@@ -49,4 +49,4 @@ Paket Hosting
 Kegunaan dari bagian ini adalah untuk menampilkan pilihan paket hosting yang disediakan. Bagian ini berisi informasi apa saja yang didapat dari paket serta harga paket yang akan dipilih, sehingga *user* dapat memilih paket yang sesuai dengan kebutuhannya.
 
 Poster
-![Poster](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/poster.png)
+![Poster](https://github.com/WidyaIn/wri-phyton-landing-page/blob/main/upload/poster.png)
