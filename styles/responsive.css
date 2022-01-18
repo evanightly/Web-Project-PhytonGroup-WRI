@@ -15,6 +15,12 @@
     padding: 0;
     height: 100%;
   }
+
+  .poster .content {
+    width: 85%;
+    padding: 70px;
+    color: #fff;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -100,6 +106,18 @@
     order: 7;
   }
 
+  .poster{
+    background: linear-gradient(rgba(4,13,64,.71), rgba(4,13,64,.71)), url('../assets/images/poster.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .poster .content {
+    width: 100%;
+    padding: 70px;
+    color: #fff;
+  }
+
   footer .container > * {
     padding: 20px;
     justify-content: start;
@@ -110,6 +128,33 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .poster {
+    padding: 60px 40px;
+  }
+
+  .poster .content {
+    padding: 0;
+    width: 100%;
+    color: #fff;
+  }
+
+  .poster .content h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  
+  
+  .poster .content p {
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 30px;
+  }
+  
+  .poster .content .icons > *{
+    width: 30px;
+    height: 30px;
+  }
+
   footer .container .row {
     flex-direction: column;
   }
