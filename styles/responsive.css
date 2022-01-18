@@ -11,6 +11,10 @@
   .paket .container > * {
     margin: 20px;
   }
+  .fitur > * > object {
+    padding: 0;
+    height: 100%;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -21,7 +25,7 @@
   .hero p {
     font-size: 20px;
   }
- 
+
   .paket .container {
     justify-content: center;
     align-items: center;
@@ -32,20 +36,32 @@
   }
 
   .fitur {
-    padding: 70px 0;
+    padding: 70px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
-  
+
   .fitur > * {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
 
-  .fitur > * > object{
+
+  .fitur > *:not(:last-child) {
+    margin-bottom: 150px;
+  }
+
+  /* .fitur3 {
+    padding: 0 10%;
+  } */
+
+  .fitur > * > object {
+    margin: 0 auto;
     margin-top: 50px;
+    height: 60%;
+    width: 60%;
   }
 
   .fitur > * > * {
@@ -58,23 +74,38 @@
   }
 
   /* Ordering */
-  .fitur .fitur1 object { order: 2;}
-  .fitur .fitur-section object { order: 4;}
-  .fitur .fitur3 object { order: 6;}
-  .fitur .fitur-section4 object { order: 8;}
+  .fitur .fitur1 object {
+    order: 2;
+  }
+  .fitur .fitur-section object {
+    order: 4;
+  }
+  .fitur .fitur3 object {
+    order: 6;
+  }
+  .fitur .fitur-section4 object {
+    order: 8;
+  }
 
-  .fitur .fitur1 div { order: 1;}
-  .fitur .fitur-section div { order: 3;}
-  .fitur .fitur3 div { order: 5;}
-  .fitur .fitur-section4 div { order: 7;}
+  .fitur .fitur1 div {
+    order: 1;
+  }
+  .fitur .fitur-section div {
+    order: 3;
+  }
+  .fitur .fitur3 div {
+    order: 5;
+  }
+  .fitur .fitur-section4 div {
+    order: 7;
+  }
 
-  footer .container > *{
+  footer .container > * {
     padding: 20px;
     justify-content: start;
     align-items: start;
     flex: 1;
   }
-
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -82,7 +113,6 @@
   footer .container .row {
     flex-direction: column;
   }
- 
 }
 
 /* X-Small devices (portrait phones, less than 576px) */

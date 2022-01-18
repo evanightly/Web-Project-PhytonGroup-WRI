@@ -355,6 +355,7 @@ button {
 /* FITUR */
 
 .fitur {
+  background: #f6fbff;
   padding: 40px;
   display: flex;
   flex-wrap: wrap;
@@ -366,37 +367,45 @@ button {
 }
 
 .fitur > * > * {
-  padding: 60px;
+  height: 50%;
   width: 50%;
+}
+
+.fitur > *:not(:last-child) {
+  margin-bottom: -30px;
+}
+
+.fitur > * > object {
+  padding: 80px;
+  height: 100%;
 }
 
 .fitur > * > div {
   letter-spacing: 2px;
-  line-height: 40px;
-  padding: 50px;
+  line-height: 30px;
+  padding: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-self: center;
 }
 
 .fitur > * > div > h1 {
-  line-height: 50px;
+  font-weight: 100;
+  line-height: 35px;
+  font-size: 30px;
 }
 
 .fitur > * > div > p {
   color: #6f6f6f;
 }
 
-.fitur > * > div > * {
-  margin-top: 50px;
-}
-
-.fitur > *:not(:last-child) {
-  margin-bottom: 60px;
+.fitur > * > div > p {
+  margin-top: 20px;
 }
 
 .fitur1 {
-  display: flex;
+  /* display: flex; */
   /* height: 560px; */
   /* padding: 0 10%; */
 }
@@ -404,22 +413,22 @@ button {
 .fitur1 > object {
   /* width: 50%; */
   /* height: 400px; */
-  align-self: center;
+  /* align-self: center; */
 }
 
 .fitur1 > div {
-  align-self: center;
+  /* align-self: center; */
   /* padding-right: 200px; */
   /* width: 50%; */
 }
 
 .fitur1 h1 {
-  font-size: 36px;
+  /* font-size: 36px; */
   /* margin: 20px 0; */
 }
 
 .fitur1 p {
-  font-size: 24px;
+  /* font-size: 24px; */
 }
 
 .fitur-section {
@@ -435,12 +444,12 @@ button {
 }
 
 .fitur-section h1 {
-  font-size: 36px;
+  /* font-size: 36px; */
   /* margin: 20px 0; */
 }
 
 .fitur-section p {
-  font-size: 24px;
+  /* font-size: 24px; */
 }
 
 .fitur-section > object {
@@ -468,12 +477,12 @@ button {
 }
 
 .fitur3 h1 {
-  font-size: 36px;
+  /* font-size: 36px; */
   /* margin: 20px 0; */
 }
 
 .fitur3 p {
-  font-size: 24px;
+  /* font-size: 24px; */
 }
 
 .fitur-section4 {
@@ -489,12 +498,12 @@ button {
 }
 
 .fitur-section4 h1 {
-  font-size: 36px;
+  /* font-size: 36px; */
   /* margin: 20px 0; */
 }
 
 .fitur-section4 p {
-  font-size: 24px;
+  /* font-size: 24px; */
 }
 
 .fitur-section4 > object {
