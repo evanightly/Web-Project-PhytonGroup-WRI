@@ -47,3 +47,6 @@ Bagian ini digunakan untuk memberikan gambaran mengenai tujuan dan memberikan ar
 Paket Hosting
 ![Paket Hosting](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/pakethosting.png)
 Kegunaan dari bagian ini adalah untuk menampilkan pilihan paket hosting yang disediakan. Bagian ini berisi informasi apa saja yang didapat dari paket serta harga paket yang akan dipilih, sehingga *user* dapat memilih paket yang sesuai dengan kebutuhannya.
+
+Poster
+![Poster](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/poster.png)
