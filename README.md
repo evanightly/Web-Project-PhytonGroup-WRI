@@ -51,3 +51,7 @@ Kegunaan dari bagian ini adalah untuk menampilkan pilihan paket hosting yang dis
 Poster
 ![Poster](https://github.com/WidyaIn/wri-phyton-landing-page/blob/main/upload/poster.png)
 Bagian ini adalah poster yang berisikan ajakan untuk bergabung dengan niagabooster. Poster tersebut berfungsi memberikan informasi serta media promosi agar customer tertarik membeli produk tersebut.
+
+Contact
+![Contact](https://github.com/ifky06/wri-phyton-landing-page/blob/main/upload/Contact.PNG)
+Kegunaan dari bagian ini adalah jika *user* ingin mengetahui lebih lanjut tentang layanan niagabooster maka bisa menghubungi lewat contact. Bagian ini berisi form yang harus diisi jika ingin mengontak dan menanyakan lebih lanjut tentang layanan niagabooster.
