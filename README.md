@@ -53,5 +53,10 @@ Fitur
 Kegunaan dari fitur section ini adalah menampilkan fitur fitur dan keuntungan yang akan didapatkan customer setelah menggunakan niagabooster ini. Selain itu terdapat alasan penjelas dari setiap fitur yang dijelaskan secara singkat.
 
 Poster
-![Poster](https://github.com/WidyaIn/wri-phyton-landing-page/blob/main/upload/poster.png)
+![Poster](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/poster.png)
 Bagian ini adalah poster yang berisikan ajakan untuk bergabung dengan niagabooster. Poster tersebut berfungsi memberikan informasi serta media promosi agar customer tertarik membeli produk tersebut.
+
+
+Footer
+![Footer](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/footer.png)
+Bagian ini merupakan footer dari niagabooster yang berisi alamat kantor, layanan dari niagabooster, contact dari niagabooster, dan juga partner dari niagabooster
