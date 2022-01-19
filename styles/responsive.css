@@ -54,7 +54,6 @@
     flex-direction: column;
   }
 
-
   .fitur > *:not(:last-child) {
     margin-bottom: 150px;
   }
@@ -106,8 +105,9 @@
     order: 7;
   }
 
-  .poster{
-    background: linear-gradient(rgba(4,13,64,.71), rgba(4,13,64,.71)), url('../assets/images/poster.png');
+  .poster {
+    background: linear-gradient(rgba(4, 13, 64, 0.71), rgba(4, 13, 64, 0.71)),
+      url("../assets/images/poster.png");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -128,6 +128,17 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .fitur {
+    padding: 40px;
+  }
+
+  .fitur > * > object {
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 70%;
+    width: 70%;
+  }
+
   .poster {
     padding: 60px 40px;
   }
@@ -142,15 +153,14 @@
     font-size: 30px;
     line-height: 40px;
   }
-  
-  
+
   .poster .content p {
     font-size: 16px;
     font-weight: 100;
     margin-top: 30px;
   }
-  
-  .poster .content .icons > *{
+
+  .poster .content .icons > * {
     width: 30px;
     height: 30px;
   }
@@ -162,6 +172,26 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .fitur {
+    padding: 20px;
+  }
+
+  .fitur > * > object {
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 90%;
+    width: 90%;
+  }
+
+  .fitur > * > div > h1 {
+    font-weight: 100;
+    line-height: 35px;
+    font-size: 24px;
+  }
+  
+  .fitur > * > div > p {
+    font-size: 18px;
+  }
   /* footer .container .row .services,
   footer .container .row .getintouch {
     flex-grow: 1;
