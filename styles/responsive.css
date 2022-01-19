@@ -118,6 +118,48 @@
     color: #fff;
   }
 
+  .contact {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  .contact > * {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .describe{
+    flex: 0 0 100%
+  }
+  .describe h1, .describe p{
+    margin-bottom: 20px;
+  }
+  .input{
+    flex: 0 0 100%
+  }
+  .contact .text{
+    height: 43px;
+  }
+  .text-box-in{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .contact .width-text-1{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .contact button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+  }
+
+
   footer .container > * {
     padding: 20px;
     justify-content: start;
@@ -171,6 +213,18 @@
   .poster .content .icons > * {
     width: 30px;
     height: 30px;
+  }
+
+
+  .contact .text{
+    height: 35px;
+  }
+  .contact .width-text-1{
+    width: 100%;
+    margin-top: 10px;
+  }
+  .contact .width-text-2{
+    margin-top: 10px;
   }
 
   footer .container .row {
