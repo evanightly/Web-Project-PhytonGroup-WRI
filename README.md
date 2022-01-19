@@ -48,6 +48,10 @@ Paket Hosting
 ![Paket Hosting](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/pakethosting.png)
 Kegunaan dari bagian ini adalah untuk menampilkan pilihan paket hosting yang disediakan. Bagian ini berisi informasi apa saja yang didapat dari paket serta harga paket yang akan dipilih, sehingga *user* dapat memilih paket yang sesuai dengan kebutuhannya.
 
+Fitur
+![Fitur](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/fitursection.png)
+Kegunaan dari fitur section ini adalah menampilkan fitur fitur dan keuntungan yang akan didapatkan customer setelah menggunakan niagabooster ini. Selain itu terdapat alasan penjelas dari setiap fitur yang dijelaskan secara singkat.
+
 Poster
 ![Poster](https://github.com/WidyaIn/wri-phyton-landing-page/blob/main/upload/poster.png)
 Bagian ini adalah poster yang berisikan ajakan untuk bergabung dengan niagabooster. Poster tersebut berfungsi memberikan informasi serta media promosi agar customer tertarik membeli produk tersebut.
