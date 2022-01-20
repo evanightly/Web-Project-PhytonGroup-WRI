@@ -187,15 +187,35 @@ header nav div {
 }
 
 #mobile ul li {
+  position: relative;
+  transform: skewX(-45deg);
   margin-top: 20px;
+  padding: 12px 40px;
+}
+
+#mobile ul li:hover::before {
+  width: 100%;
+}
+
+#mobile ul li::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #041c32;
+  transition: all 0.2s;
 }
 
 #mobile ul li:hover a {
-  color: rgba(0, 0, 0, 0.6);
+  color: #fff;
 }
 
-#mobile li a {
-  color: #000;
+#mobile ul li a {
+  display: inline-block;
+  transform: skewX(45deg);
+  color: #041c32;
   transition: color 0.2s;
 }
 
@@ -213,7 +233,7 @@ header nav div {
   height: 3px;
   background-color: #fff;
   cursor: pointer;
-  transition: all 0.1s;
+  transition: background-color 0.1s, transform 0.3s;
 }
 
 #toggler button:hover::before {
@@ -233,7 +253,7 @@ header nav div {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -280%);
-  transition: all 0.1s;
+  transition: background-color 0.1s, transform 0.3s;
   cursor: pointer;
 }
 #toggler button::after {
@@ -245,7 +265,8 @@ header nav div {
   top: 50%;
   left: 50%;
   transform: translate(-50%, 190%);
-  transition: all 0.1s;
+  transform-origin: top left;
+  transition: background-color 0.1s, transform 0.3s;
   cursor: pointer;
 }
 
@@ -253,6 +274,18 @@ header nav div {
 #toggled::before,
 #toggled::after {
   background-color: #041c32 !important;
+}
+
+#toggler #toggled {
+  background-color: transparent !important;
+}
+
+#toggler #toggled::before {
+  transform: translate(-68%, 330%) rotate(-45deg);
+}
+
+#toggler #toggled::after {
+  transform: translate(-50%, 0) rotate(45deg);
 }
 
 nav ul li {
