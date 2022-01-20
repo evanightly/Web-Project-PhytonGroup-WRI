@@ -1,11 +1,11 @@
 # Niagabooster
 
 Landing page ini didesain dan dikembangkan sedemikian rupa untuk memberikan informasi berupa tujuan, layanan dan kontak.
-Desain ini menerapkan *Desktop First Design*, yaitu memfokuskan *user interface* dan *user experience* pada tampilan desktop.
+Desain ini menerapkan *Desktop First Design*, yaitu memfokuskan *user interface* pada tampilan desktop.
 Halaman ini mendukung tampilan responsif agar dapat diakses dalam bentuk *mobile device* tanpa merusak desain tampilan utama.
 
 ### Tautan
-
+- [Figma](https://www.figma.com/file/X9pZ2iW3jf9NFWaCDcvQEM/PROJECT-WRI?node-id=2%3A3)
 - [Live Preview](https://evanhendersonrichtbyte.github.io/wri-phyton-landing-page/)
 
 ### Dikembangkan Menggunakan
