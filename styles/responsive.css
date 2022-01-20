@@ -132,33 +132,33 @@
     flex-wrap: wrap;
     flex-direction: column;
   }
-  .describe{
-    flex: 0 0 100%
+  .describe {
+    flex: 0 0 100%;
   }
-  .describe h1, .describe p{
+  .describe h1,
+  .describe p {
     margin-bottom: 20px;
   }
-  .input{
-    flex: 0 0 100%
+  .input {
+    flex: 0 0 100%;
   }
-  .contact .text{
+  .contact .text {
     height: 43px;
   }
-  .text-box-in{
+  .text-box-in {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
-  .contact .width-text-1{
+  .contact .width-text-1 {
     width: 100%;
     margin-top: 20px;
   }
-  .contact button{
+  .contact button {
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
   }
-
 
   footer .container > * {
     padding: 20px;
@@ -215,15 +215,14 @@
     height: 30px;
   }
 
-
-  .contact .text{
+  .contact .text {
     height: 35px;
   }
-  .contact .width-text-1{
+  .contact .width-text-1 {
     width: 100%;
     margin-top: 10px;
   }
-  .contact .width-text-2{
+  .contact .width-text-2 {
     margin-top: 10px;
   }
 
@@ -234,12 +233,14 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  
-  #toggler, #mobile {
+  #mobile {
+    display: none;
+  }
+  #toggler {
     display: flex;
   }
 
-  header  {
+  header {
     padding: 20px 30px;
   }
 
