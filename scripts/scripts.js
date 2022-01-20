@@ -1,6 +1,12 @@
 let toggle = false;
 const log = console.log;
 
+function navControl() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80)
+    document.querySelector("header").classList = "scrolled";
+  else document.querySelector("header").classList = "";
+}
+
 const handleResponsiveNavbar = (toggle) => {
   if (!toggle) {
     document.querySelector("body").style.overflowY = "scroll";
@@ -8,7 +14,7 @@ const handleResponsiveNavbar = (toggle) => {
     document.querySelector("#toggler > button").setAttribute("id", "");
   } else {
     document.querySelector("body").style.overflowY = "hidden";
-    document.getElementById("mobile").style.display = "block";
+    document.getElementById("mobile").style.display = "flex";
     document.querySelector("#toggler > button").setAttribute("id", "toggled");
   }
 };
