@@ -40,27 +40,27 @@ Halaman ini mendukung tampilan responsif agar dapat diakses dalam bentuk *mobile
 - Widya Indah Puspita Sari
 
 ### Dokumentasi
-Hero
+Hero - Galur Arasy Lumintang
 ![Hero](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/hero.png)
 Bagian ini digunakan untuk memberikan gambaran mengenai tujuan dan memberikan arahan kepada *user* agar dapat mengikuti alur kerja sistem secara terstruktur.
 
-Paket Hosting
+Paket Hosting - Mochamad Zaky Zamroni
 ![Paket Hosting](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/pakethosting.png)
 Kegunaan dari bagian ini adalah untuk menampilkan pilihan paket hosting yang disediakan. Bagian ini berisi informasi apa saja yang didapat dari paket serta harga paket yang akan dipilih, sehingga *user* dapat memilih paket yang sesuai dengan kebutuhannya.
 
-Fitur
+Fitur - Aryo Deva Saputra
 ![Fitur](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/fitursection.png)
 Kegunaan dari fitur section ini adalah menampilkan fitur fitur dan keuntungan yang akan didapatkan customer setelah menggunakan niagabooster ini. Selain itu terdapat alasan penjelas dari setiap fitur yang dijelaskan secara singkat.
 
-Poster
+Poster - Widya Indah Puspita Sari
 ![Poster](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/poster.png)
 Bagian ini adalah poster yang berisikan ajakan untuk bergabung dengan niagabooster. Poster tersebut berfungsi memberikan informasi serta media promosi agar customer tertarik membeli produk tersebut.
 
-Contact
+Contact - Ahmad Rifki Fauzi
 ![Contact](https://github.com/ifky06/wri-phyton-landing-page/blob/main/upload/Contact.PNG)
 Kegunaan dari bagian ini adalah jika *user* ingin mengetahui lebih lanjut tentang layanan niagabooster maka bisa menghubungi lewat contact. Bagian ini berisi form yang harus diisi jika ingin mengontak dan menanyakan lebih lanjut tentang layanan niagabooster.
 
-Footer
+Footer - Ilham Maulidin
 ![Footer](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/footer.png)
 Bagian ini merupakan footer dari niagabooster yang berisi alamat kantor, layanan dari niagabooster, contact dari niagabooster, dan juga partner dari niagabooster
 
