@@ -234,6 +234,18 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  
+  #toggler, #mobile {
+    display: flex;
+  }
+
+  header  {
+    padding: 20px 30px;
+  }
+
+  header nav p ~ ul {
+    display: none;
+  }
   .fitur {
     padding: 20px;
   }
