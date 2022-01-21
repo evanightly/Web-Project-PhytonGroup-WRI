@@ -162,6 +162,7 @@
   }
   .contact .text {
     height: 43px;
+    padding: 15px;
   }
   .text-box-in {
     display: flex;
@@ -235,6 +236,7 @@
 
   .contact .text {
     height: 35px;
+    padding: 10px;
   }
   .contact .width-text-1 {
     width: 100%;
