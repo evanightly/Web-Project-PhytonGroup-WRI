@@ -7,6 +7,7 @@
   .intro .content {
     margin-top: 60px;
     width: 100%;
+    height: 100%;
     align-items: center;
     justify-content: start;
     text-align: center;
@@ -137,12 +138,7 @@
   }
 
   .contact {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-bottom: 0px;
+    padding: 40px;
   }
 
   .contact > * {
@@ -189,6 +185,11 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .intro {
+    margin: 0;
+    padding: 20px;
+  }
+
   .fitur {
     padding: 40px;
   }
@@ -234,10 +235,19 @@
     height: 30px;
   }
 
+  .contact {
+    padding: 40px 0;
+  }
+
+  .contact .container {
+    padding: 0;
+  }
+
   .contact .text {
     height: 35px;
     padding: 10px;
   }
+
   .contact .width-text-1 {
     width: 100%;
     margin-top: 10px;
@@ -267,6 +277,37 @@
   header nav div ~ ul {
     display: none;
   }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+  .hero p {
+    font-size: 15px;
+  }
+
+  #intro {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro .content {
+    margin-top: 0;
+    padding: 10px;
+  }
+
+  .intro .content h1 {
+    margin: 20px 0;
+  }
+
+  .intro .content button {
+    margin: 45px 0;
+  }
+
+  .intro .content h1,
+  .intro .content p {
+    width: 100%;
+  }
+
   .fitur {
     padding: 20px;
   }
@@ -296,11 +337,5 @@
   }
   .paket .container p {
     margin-top: 0;
-  }
-  .hero h1 {
-    font-size: 32px;
-  }
-  .hero p {
-    font-size: 15px;
   }
 }

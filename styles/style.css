@@ -399,7 +399,7 @@ button {
   margin-top: 30px;
   font-size: 14px;
   line-height: 140%;
-  color: #ED4C5C;
+  color: #ed4c5c;
   background: #ffffff;
   text-decoration: none;
 }
@@ -408,13 +408,11 @@ button {
   width: 445px;
   height: 337.92px;
   position: flex;
-
 }
 
 .intro div {
   width: 445px;
   height: 264px;
-
 }
 /* PAKET */
 
@@ -866,8 +864,6 @@ button {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 100px;
-  margin-bottom: 50px;
 }
 .contact .container {
   display: flex;
@@ -891,6 +887,13 @@ button {
   padding: 0 40px;
   /* display: flex;
   flex-wrap: nowrap; */
+}
+.input button {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.input button:active {
+  transform: translateY(10%);
 }
 .text-box-in {
   display: flex;
