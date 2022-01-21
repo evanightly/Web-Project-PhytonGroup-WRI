@@ -349,6 +349,73 @@ button {
   text-transform: uppercase;
 }
 
+/* Intro */
+.intro {
+  display: flex;
+  /* flex-direction: column-reverse; */
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 130px;
+}
+
+.intro .image {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-basis: 2;
+  width: 50%;
+}
+
+.intro .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.intro .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.intro h1 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  width: 80%;
+}
+
+.intro p {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 140%;
+  width: 75%;
+}
+
+.intro button {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ED4C5C;
+  background: #ffffff;
+  text-decoration: none;
+}
+
+#intro {
+  width: 445px;
+  height: 337.92px;
+  position: flex;
+
+}
+
+.intro div {
+  width: 445px;
+  height: 264px;
+
+}
 /* PAKET */
 
 .paket {
@@ -538,6 +605,34 @@ button {
 
 .standard button {
   background-color: #195da1;
+}
+
+/* FITUR TERBAIK*/
+.fitur-terbaik {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.fitur-terbaik h1 {
+  font-size: 36px;
+  margin-top: 30px;
+}
+
+.fitur-terbaik div {
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.fitur-terbaik div img {
+  max-width: 100%;
+  margin: 80px;
+  /* width: 460px; */
+  /* height: 140px; */
 }
 
 /* FITUR */
