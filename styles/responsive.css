@@ -4,6 +4,23 @@
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
+  .intro .content {
+    margin-top: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    order: 2;
+  }
+
+  .intro p {
+    text-align: justify;
+  }
+
+  .intro image {
+    order: 1;
+  }
+
   .paket .container {
     justify-content: start;
     flex-wrap: wrap;
@@ -11,6 +28,7 @@
   .paket .container > * {
     margin: 20px;
   }
+
   .fitur > * > object {
     padding: 0;
     height: 100%;
