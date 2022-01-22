@@ -416,226 +416,206 @@ button {
 }
 /* PAKET */
 
-.paket {
-  padding: 60px;
-  background: #f6fbff;
+section.paket {
+  padding: 40px;
+  background-color: #f6fbff;
+}
+
+section.paket h1 {
+  text-align: center;
+  margin: 40px 0 60px 0;
+  color: #2f2e41;
+  font-size: 36px;
+}
+
+section.paket .container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+section.paket .container > * {
+  width: 550px;
+  height: 510px;
+  background-color: transparent;
+  color: #fff;
+  perspective: 1000px;
+}
+
+section.paket .container > *:not(:last-child) {
+  margin-right: 70px;
+}
+
+section.paket .container > * .inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+section.paket .container > *:hover .inner {
+  transform: rotateY(180deg);
+}
+
+section.paket .container > * .inner .front,
+section.paket .container > * .inner .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari Support */
+  border-radius: 3px;
+  backface-visibility: hidden;
+}
+
+section.paket .container .gold .front {
+  background: linear-gradient(
+      to bottom right,
+      rgba(241, 39, 17, 0.85),
+      rgba(240, 152, 25, 0.85)
+    ),
+    url("../assets/images/paket-bisnis.png");
+}
+
+section.paket .container .premium .front {
+  background: linear-gradient(
+      to bottom right,
+      rgba(0, 0, 0, 0.85),
+      rgba(67, 67, 67, 0.85)
+    ),
+    url("../assets/images/paket-premium.png");
+}
+
+section.paket .container .standard .front {
+  background: linear-gradient(
+      to bottom right,
+      rgba(15, 12, 41, 0.85),
+      rgba(48, 43, 99, 0.85),
+      rgba(36, 36, 62, 0.85)
+    ),
+    url("../assets/images/paket-standard.png");
+}
+
+section.paket .container > * .inner .back {
+  transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
-.paket h1 {
-  /* margin-top: 87.63px; */
-  margin: 0 0 50px 0;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 43px;
+section.paket .container > * .inner .back > * {
   text-align: center;
-  color: rgba(47, 46, 65, 0.85);
 }
 
-.paket .container {
-  display: flex;
-  justify-content: space-between;
-  /* margin-top: 221.69px; */
-  padding: 0 40px;
+section.paket .container > * .inner .back h3 {
+  font-weight: 200;
+  font-size: 30px;
 }
 
-.paket .container > div {
-  /*padding: 20px;
-  box-shadow: 4px 10px 10px 2px #88888827;*/
+section.paket .container > * .inner .back h2 {
+  font-weight: lighter;
+  margin: 20px 0;
+  font-size: 30px;
 }
 
-/*.paket .container > div:hover {
-  transform: scale(1.1);
-}*/
-
-.paket .container div:not(:last-child) {
-  margin-right: 80px;
+section.paket .container > * .inner .back h2 sup {
+  font-size: 20px;
 }
 
-.paket .container p {
-  text-align: center;
-  padding: 0%;
-  /*margin-top: 43.72px;*/
-  margin-bottom: 41.82px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 43px;
-  color: #fff;
-}
-
-.paket .container ul {
-  list-style-type: none;
-  text-align: center;
-  font-size: 14px;
-  line-height: 19.53px;
-  color: #ffffff;
-}
-
-.paket .container ul .garis {
-  width: 233px;
-}
-
-.paket .container button {
-  transition: all 0.2s;
+section.paket .container > * .inner .back h2 span {
+  font-size: 15px;
   letter-spacing: 1px;
 }
 
-.paket h2 {
-  font-weight: 300;
-  font-size: 41px;
-  line-height: 49px;
-  text-align: center;
-  margin-bottom: 83px;
-  color: #FFFFFF;
-
-}
-.paket h3 {
-  font-size: 35px;
-  margin-left: 80px;
-  line-height: 42px;
-  text-align: center;
-  color: #ffff;
-}
-
-.paket h5 {
-  line-height: 119px;
-}
-
-.paket h6 {
-  line-height: 43.72px;
-}
-
-.paket span {
-  font-size: 14px;
-}
-
-/*.paket .container button:hover {
+section.paket .container > * .inner .back button {
+  font-size: 20px;
+  font-weight: bolder;
+  display: inline-block;
+  margin: 30px auto;
+  width: 25%;
+  padding: 8px 7px;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: all 0.2s;
   cursor: pointer;
-  transform: translateY(-5px);
 }
 
-.paket .container button:active {
-  transform: translateY(0);
-}*/
-
-.gold {
-  background: linear-gradient(148.77deg, rgba(253, 200, 48, 0.85) 0.06%, rgba(241, 39, 17, 0.85) 0.07%, rgba(255, 81, 47, 0.85) 0.08%, rgba(245, 175, 25, 0.85) 99.68%, rgba(240, 152, 25, 0.85) 99.68%);
-  border-radius: 5px;
-  transform-style: preserve-3d;
-  transition: all 0.5s ease;
+section.paket .container > * .inner .back button:active {
+  transform: translateY(5px);
 }
 
-.gold:hover {
-  transform: rotateY(180deg);
+section.paket .container .gold .back {
+  background: linear-gradient(
+    to bottom right,
+    rgb(241, 39, 17),
+    rgb(240, 152, 25)
+  );
+}
+section.paket .container .premium .back {
+  background: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(67, 67, 67));
+}
+section.paket .container .standard .back {
+  background: linear-gradient(
+    to bottom right,
+    rgb(15, 12, 41),
+    rgb(48, 43, 99),
+    rgb(36, 36, 62)
+  );
 }
 
-.goldf {
-  backface-visibility: hidden;
-  width: 100%;
-  height: 100%;
+section.paket .container .gold .back button {
+  color: rgb(240, 152, 25);
+}
+section.paket .container .premium .back button {
+  color: rgb(67, 67, 67);
+}
+section.paket .container .standard .back button {
+  color: rgb(48, 43, 99);
 }
 
-.goldb {
-  backface-visibility: hidden;
-  transform: rotateY(180deg);
-  background: linear-gradient(148.56deg, #FDC830 0%, #F09819 100%);
-  width: 100%;
-  height: 100%;
+section.paket .container > * h1,
+section.paket .container > * li {
+  font-weight: lighter;
 }
 
-.premium {
-  background: linear-gradient(148.72deg, rgba(0, 0, 0, 0.85) 0.04%, rgba(67, 67, 67, 0.85) 99.93%);
-  border-radius: 5px;
-  transform-style: preserve-3d;
-  transition: all 0.5s ease;
+section.paket .container > * h1 {
+  margin: 40px 0;
+  color: #fff;
 }
 
-.premium:hover {
-  transform: rotateY(180deg);
+section.paket .container > * .front ul {
+  list-style: none;
 }
 
-.premiumf {
-  backface-visibility: hidden;
-  width: 100%;
-  height: 100%;
+section.paket .container > * .front ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0 60px;
 }
 
-.premiumb {
-  backface-visibility: hidden;
-  transform: rotateY(180deg);
-  background: linear-gradient(148.56deg, #FDC830 0%, #F09819 100%);
-  width: 100%;
-  height: 100%;
-}
-
-.standard {
-  background: linear-gradient(180deg, rgba(15, 12, 41, 0.85) 0%, rgba(48, 43, 99, 0.85) 50%, rgba(36, 36, 62, 0.85) 100%, rgba(36, 36, 62, 0.85) 100%);
-  border-radius: 5px;
-  transform-style: preserve-3d;
-  transition: all 0.5s ease;
-}
-
-.standard:hover {
-  transform: rotateY(180deg);
-}
-
-.standardf {
-  backface-visibility: hidden;
-  width: 100%;
-  height: 100%;
-}
-
-.standardb {
-  backface-visibility: hidden;
-  transform: rotateY(180deg);
-  background: linear-gradient(148.56deg, #FDC830 0%, #F09819 100%);
-  width: 100%;
-  height: 100%;
-}
-
-/*.paket button {
-  display: block;
-  padding: 10px;
-  width: 243px;
-  height: 45px;
-  margin-right: auto;
-  margin-left: auto;
-  color: #fafafa;
-  font-weight: 800;
-  border-radius: 5px;
-  line-height: 25px;
-  size: 21px;
-}*/
-
-.gold button {
-  font-weight: 800;
-  font-size: 21px;
-  line-height: 25px;
+section.paket .container > * li {
   text-align: center;
-  text-transform: uppercase;
-  background-color: #fdbf30;
+  padding: 15px;
+  border-bottom: 1px solid #e6e6e6;
 }
 
-.premium button {
-  font-weight: 800;
-  font-size: 21px;
-  line-height: 25px;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: #6f6f6f;
+section.paket .container > * .front button {
+  background-color: transparent;
+  text-transform: lowercase;
+  position: absolute;
+  bottom: 20px;
+  right: 45px;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #fff;
+  cursor: pointer;
 }
 
-.standard button {
-  font-size: 21px;
-  line-height: 25px;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: #195da1;
+section.paket .container > * .front button object {
+  margin-left: 5px;
+  vertical-align: middle;
 }
 
 /* FITUR TERBAIK*/

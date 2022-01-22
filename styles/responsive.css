@@ -22,12 +22,12 @@
     order: 1;
   }
 
-  .paket .container {
-    justify-content: start;
-    flex-wrap: wrap;
+  section.paket .container > *:not(:last-child) {
+    margin: 0 0 80px 0;
   }
-  .paket .container > * {
-    margin: 20px;
+  .paket .container {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .fitur > * > object {
@@ -57,7 +57,7 @@
   }
 
   .paket .container div:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 0;
   }
 
   .fitur {
@@ -307,9 +307,22 @@
   .intro .content p {
     width: 100%;
   }
-
+  .fitur-terbaik div {
+    padding: 20px;
+  }
+  .fitur-terbaik div img {
+    max-width: initial;
+    width: 100%;
+  }
   .fitur {
     padding: 20px;
+  }
+  .fitur > * object {
+    width: 100%;
+    height: 100%;
+  }
+  .fitur-section4 {
+    margin-bottom: 40px;
   }
 
   .fitur > * > div > h1 {
@@ -333,9 +346,25 @@
     padding: 0;
   }
   .paket .container div {
-    padding: 30px 10px;
+    padding: 0;
   }
   .paket .container p {
     margin-top: 0;
+  }
+  section.paket .container {
+    padding: 0;
+  }
+  section.paket .container > * .front ul {
+    padding: 0 20px;
+  }
+  .paket .container div:not(:last-child) {
+    margin: 0 0 50px 0;
+  }
+  section.paket .container > * .inner .back h2 sup,
+  section.paket .container > * .inner .back h2 span {
+    display: block;
+  }
+  section.paket .container > * .inner .back button {
+    width: 70%;
   }
 }
