@@ -444,14 +444,13 @@ button {
 }
 
 .paket .container > div {
-  padding: 20px;
-  box-shadow: 4px 10px 10px 2px #88888827;
-  transition: all 0.2s;
+  /*padding: 20px;
+  box-shadow: 4px 10px 10px 2px #88888827;*/
 }
 
-.paket .container > div:hover {
+/*.paket .container > div:hover {
   transform: scale(1.1);
-}
+}*/
 
 .paket .container div:not(:last-child) {
   margin-right: 80px;
@@ -459,31 +458,26 @@ button {
 
 .paket .container p {
   text-align: center;
-  margin-top: 23.72px;
-  margin-bottom: 35.94px;
+  padding: 0%;
+  /*margin-top: 43.72px;*/
+  margin-bottom: 41.82px;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 43px;
-}
-
-.paket .container #garis {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 26.23px;
+  color: #fff;
 }
 
 .paket .container ul {
   list-style-type: none;
-  padding-left: 50px;
+  text-align: center;
   font-size: 14px;
   line-height: 19.53px;
-  color: #101010c4;
+  color: #ffffff;
 }
 
-.paket .container ul img {
-  margin-right: 9.77px;
+.paket .container ul .garis {
+  width: 233px;
 }
 
 .paket .container button {
@@ -491,95 +485,120 @@ button {
   letter-spacing: 1px;
 }
 
-.paket .container button:hover {
+.paket h2 {
+  font-weight: 300;
+  font-size: 41px;
+  line-height: 49px;
+  text-align: center;
+  margin-bottom: 83px;
+  color: #FFFFFF;
+
+}
+.paket h3 {
+  font-size: 35px;
+  margin-left: 80px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffff;
+}
+
+.paket h5 {
+  line-height: 119px;
+}
+
+.paket h6 {
+  line-height: 43.72px;
+}
+
+.paket span {
+  font-size: 14px;
+}
+
+/*.paket .container button:hover {
   cursor: pointer;
   transform: translateY(-5px);
 }
 
 .paket .container button:active {
   transform: translateY(0);
-}
+}*/
 
 .gold {
-  background: #fafafa;
-  box-shadow: 0px 14px 10px -1px rgba(0, 0, 0, 0.07);
+  background: linear-gradient(148.77deg, rgba(253, 200, 48, 0.85) 0.06%, rgba(241, 39, 17, 0.85) 0.07%, rgba(255, 81, 47, 0.85) 0.08%, rgba(245, 175, 25, 0.85) 99.68%, rgba(240, 152, 25, 0.85) 99.68%);
   border-radius: 5px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
 }
 
-.gold p {
-  color: #fdbf30;
+.gold:hover {
+  transform: rotateY(180deg);
+}
+
+.goldf {
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.goldb {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background: linear-gradient(148.56deg, #FDC830 0%, #F09819 100%);
+  width: 100%;
+  height: 100%;
 }
 
 .premium {
-  background: #fafafa;
-  box-shadow: 0px 14px 10px -1px rgba(0, 0, 0, 0.07);
+  background: linear-gradient(148.72deg, rgba(0, 0, 0, 0.85) 0.04%, rgba(67, 67, 67, 0.85) 99.93%);
   border-radius: 5px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
 }
 
-.premium p {
-  color: #6f6f6f;
+.premium:hover {
+  transform: rotateY(180deg);
+}
+
+.premiumf {
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.premiumb {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background: linear-gradient(148.56deg, #FDC830 0%, #F09819 100%);
+  width: 100%;
+  height: 100%;
 }
 
 .standard {
-  background: #fafafa;
-  box-shadow: 0px 14px 10px -1px rgba(0, 0, 0, 0.07);
+  background: linear-gradient(180deg, rgba(15, 12, 41, 0.85) 0%, rgba(48, 43, 99, 0.85) 50%, rgba(36, 36, 62, 0.85) 100%, rgba(36, 36, 62, 0.85) 100%);
   border-radius: 5px;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
 }
 
-.standard p {
-  color: #195da1;
+.standard:hover {
+  transform: rotateY(180deg);
 }
 
-.harga {
-  text-align: center;
+.standardf {
+  backface-visibility: hidden;
   width: 100%;
-  /* margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  justify-content: center; */
+  height: 100%;
 }
 
-.harga h2 {
-  font-size: 20px;
-  margin-bottom: 14.7px;
+.standardb {
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background: linear-gradient(148.56deg, #FDC830 0%, #F09819 100%);
+  width: 100%;
+  height: 100%;
 }
 
-.harga span {
-  font-size: 14px;
-  color: #6f6f6f;
-}
-
-.gold .harga h2 {
-  margin-top: 20.4px;
-  color: #fdbf30;
-}
-
-.gold .harga h3 {
-  /* margin-top: 28.4px; */
-  color: #6f6f6f;
-}
-
-.premium .harga h2 {
-  margin-top: 39.83px;
-  color: #6f6f6f;
-}
-
-.premium .harga h3 {
-  /* margin-top: 47.83px; */
-  color: #6f6f6f;
-}
-
-.standard .harga h2 {
-  margin-top: 59.351px;
-  color: #195da1;
-}
-
-.standard .harga h3 {
-  /* margin-top: 68.351px; */
-  color: #6f6f6f;
-}
-
-.paket button {
+/*.paket button {
   display: block;
   padding: 10px;
   width: 243px;
@@ -591,17 +610,31 @@ button {
   border-radius: 5px;
   line-height: 25px;
   size: 21px;
-}
+}*/
 
 .gold button {
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
   background-color: #fdbf30;
 }
 
 .premium button {
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
   background-color: #6f6f6f;
 }
 
 .standard button {
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
   background-color: #195da1;
 }
 
