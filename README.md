@@ -44,9 +44,17 @@ Hero - Galur Arasy Lumintang
 ![Hero](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/hero.png)
 Bagian ini digunakan untuk memberikan gambaran mengenai tujuan dan memberikan arahan kepada *user* agar dapat mengikuti alur kerja sistem secara terstruktur.
 
+Intro - Mohamad Edwin Isa Alfais
+![Intro](https://github.com/alfais17/wri-phyton-landing-page/blob/main/upload/Intro.png)
+Bagian ini merupakan halaman pengenalan yang mendeskripsikan tentang profile website Niagabooster
+
 Paket Hosting - Mochammad Zaky Zamroni
 ![Paket Hosting](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/pakethosting.png)
 Kegunaan dari bagian ini adalah untuk menampilkan pilihan paket hosting yang disediakan. Bagian ini berisi informasi apa saja yang didapat dari paket serta harga paket yang akan dipilih, sehingga *user* dapat memilih paket yang sesuai dengan kebutuhannya.
+
+Fitur Terbaik - Mohamad Edwin Isa Alfais
+![Fitur Terbaik](https://github.com/alfais17/wri-phyton-landing-page/blob/main/upload/Fitur%20Terbaik.png)
+Bagian ini berisi fitur-fitur pada Niagabooster yaitu cPanel, Imunify360, MySQL, Cloudlinux, dan PHPMyAdmin
 
 Fitur - Aryo Deva Saputra
 ![Fitur](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/fitursection.png)
@@ -64,10 +72,4 @@ Footer - Ilham Maulidin
 ![Footer](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/footer.png)
 Bagian ini merupakan footer dari niagabooster yang berisi alamat kantor, layanan dari niagabooster, contact dari niagabooster, dan juga partner dari niagabooster
 
-Intro - Mohamad Edwin Isa Alfais
-![Intro](https://github.com/alfais17/wri-phyton-landing-page/blob/main/upload/Intro.png)
-Bagian ini merupakan halaman pengenalan yang mendeskripsikan tentang profile website Niagabooster
 
-Fitur Terbaik - Mohamad Edwin Isa Alfais
-![Fitur Terbaik](https://github.com/alfais17/wri-phyton-landing-page/blob/main/upload/Fitur%20Terbaik.png)
-Bagian ini berisi fitur-fitur pada Niagabooster yaitu cPanel, Imunify360, MySQL, Cloudlinux, dan PHPMyAdmin
