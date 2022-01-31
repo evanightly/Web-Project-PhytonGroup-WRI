@@ -6,7 +6,7 @@ Halaman ini mendukung tampilan responsif agar dapat diakses dalam bentuk *mobile
 
 ### Tautan
 - [Figma](https://www.figma.com/file/X9pZ2iW3jf9NFWaCDcvQEM/PROJECT-WRI?node-id=2%3A3)
-- [Live Preview](https://evanhendersonrichtbyte.github.io/wri-phyton-landing-page/)
+- [Live Preview](https://evanhendersonrichtbyte.github.io/Web-Project-PhytonGroup-WRI/)
 
 ### Dikembangkan Menggunakan
 
