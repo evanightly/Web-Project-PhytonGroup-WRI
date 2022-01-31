@@ -40,6 +40,7 @@ Halaman ini mendukung tampilan responsif agar dapat diakses dalam bentuk *mobile
 - Widya Indah Puspita Sari
 
 ### Dokumentasi
+Navbar - Galur Arasy Lumintang, Ilham Maulidin
 ![Navbar](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/navbar.png)
 Bagian ini digunakan untuk melakukan navigasi antar bagian yang ada di dalam website
 
