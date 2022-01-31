@@ -36,7 +36,6 @@ Halaman ini mendukung tampilan responsif agar dapat diakses dalam bentuk *mobile
 - Ilham Maulidin
 - Mochammad Zaky Zamroni
 - Mohamad Edwin Isa Alfais
-- Serli Putri Maharani
 - Widya Indah Puspita Sari
 
 ### Dokumentasi
