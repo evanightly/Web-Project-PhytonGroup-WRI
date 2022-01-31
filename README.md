@@ -69,9 +69,12 @@ Poster - Widya Indah Puspita Sari
 Bagian ini adalah poster yang berisikan ajakan untuk bergabung dengan niagabooster. Poster tersebut berfungsi memberikan informasi serta media promosi agar customer tertarik membeli produk tersebut.
 
 Contact - Ahmad Rifki Fauzi
-![Contact](https://github.com/ifky06/wri-phyton-landing-page/blob/main/upload/Contact.PNG)
+![Contact](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/Contact.PNG)
 Kegunaan dari bagian ini adalah jika *user* ingin mengetahui lebih lanjut tentang layanan niagabooster maka bisa menghubungi lewat contact. Bagian ini berisi form yang harus diisi jika ingin mengontak dan menanyakan lebih lanjut tentang layanan niagabooster.
 
 Footer - Ilham Maulidin
 ![Footer](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/footer.png)
 Bagian ini merupakan footer dari niagabooster yang berisi alamat kantor, layanan dari niagabooster, contact dari niagabooster, dan juga partner dari niagabooster
+
+Full Page
+![Full Page](https://github.com/EvanHendersonRichtByte/wri-phyton-landing-page/blob/main/upload/fullpage.png)
