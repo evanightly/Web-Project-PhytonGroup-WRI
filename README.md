@@ -30,13 +30,13 @@ Halaman ini mendukung tampilan responsif agar dapat diakses dalam bentuk *mobile
 
 ### Anggota Tim
 
-- Ahmad Rifki Fauzi
-- Aryo Deva Saputra
-- Galur Arasy Lumintang
-- Ilham Maulidin
-- Mochammad Zaky Zamroni
-- Mohamad Edwin Isa Alfais
-- Widya Indah Puspita Sari
+- [Ahmad Rifki Fauzi] (https://github.com/ifky06)
+- [Aryo Deva Saputra] (https://github.com/cicaco07)
+- [Galur Arasy Lumintang] (https://github.com/EvanHendersonRichtByte/)
+- [Ilham Maulidin] (https://github.com/yourboymim)
+- [Mochammad Zaky Zamroni] (https://github.com/zakyuf)
+- [Mohamad Edwin Isa Alfais] (https://github.com/alfais17)
+- [Widya Indah Puspita Sari] (https://github.com/WidyaIn)
 
 ### Dokumentasi
 Navbar - Galur Arasy Lumintang, Ilham Maulidin
